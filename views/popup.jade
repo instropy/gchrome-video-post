@@ -1,0 +1,14 @@
+!!!
+html
+  head
+    title= "Cgt"
+    link(rel='stylesheet', href='../public/css/style.css')    
+    script(src='../public/js/lib/ender.min.js')
+    script(src='../public/js/lib/main.js')
+ body
+  span.button Send this to the server
+  div.config
+   ul.config-list
+    elements = { save: 'saveElement' }
+     each val, key in elements
+      li.option #{key}: #{val}
