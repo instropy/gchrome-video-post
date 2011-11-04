@@ -3,16 +3,19 @@
 , "version": "0.0.1"
 , "description": "A simple extention to save current video/embed reference into third party services."
 , "private": "false"
+, "options_page":"views/options.html"
+, "background_page":"views/background.html"
 , "dependencies": {
    "jade": ">= 0.0.1"
 }  
 ,"browser_action": {
   "default_icon": "public/images/icon.jpg"
-  ,"popup":"views/popup.html"
+  ,"popup":"views/popup.html"  
 },
 "content_scripts": [ {
     "all_frames": false,
     "js": [ "public/js/lib/content_script.min.js" ],
+    "css": [ "public/css/style.css" ],
     "matches": [ "http://*/*", "https://*/*" ],
     "run_at": "document_end"
  } ],
