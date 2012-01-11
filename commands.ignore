@@ -1,0 +1,17 @@
+./build/make.sh --fr & \
+ender build domready qwery underscore bonzo --noop --output ./public/js/lib/ender.js
+
+
+./build/make.sh --fr & \
+echo '' > ./public/js/lib/content_script.min.js & \
+java -jar ./build/tools/closure-compiler/compiler.jar --compilation_level WHITESPACE_ONLY --js ./public/js/lib/content_script.js > ./public/js/lib/content_script.js &\
+cat ./public/js/lib/ender.min.js ./public/js/lib/content_script.js >> ./public/js/lib/content_script.min.js & \
+echo "DONE"
+
+
+./build/make.sh --fr
+java -jar ./build/tools/closure-compiler/compiler.jar --formatting pretty_print --compilation_level WHITESPACE_ONLY --js ./public/js/lib/ender.js --js ./public/js/lib/content_script.js --js_output_file ./public/js/lib/content_script.min.js
+
+java -jar ./build/tools/closure-compiler/compiler.jar --formatting pretty_print --compilation_level WHITESPACE_ONLY --js ./public/js/lib/ender.js --js ./public/js/lib/options.js --js_output_file ./public/js/lib/options.min.js
+
+java -jar ./build/tools/closure-compiler/compiler.jar --formatting pretty_print --compilation_level WHITESPACE_ONLY --js ./public/js/lib/ender.js --js ./public/js/lib/background.js --js_output_file ./public/js/lib/background.min.js

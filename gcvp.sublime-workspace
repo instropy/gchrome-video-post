@@ -1,0 +1,199 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Build for nodejs.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/C/Users/Paloma/projects/gchrome-video-post/commands.ignore",
+		"/C/Users/Paloma/projects/gchrome-video-post/public/js/src/content_script.coffee",
+		"/C/Users/Paloma/projects/gchrome-video-post/public/js/lib/content_script.js",
+		"/C/Users/Paloma/projects/gchrome-video-post/public/js/lib/content_script.min.js",
+		"/C/Users/Paloma/projects/gchrome-video-post/public/js/src/background.coffee",
+		"/C/Users/Paloma/projects/gchrome-video-post/public/js/src/main.coffee",
+		"/C/Users/Paloma/projects/gchrome-video-post/public/js/src/options.coffee",
+		"/C/Users/Paloma/projects/gchrome-video-post/build/make.sh",
+		"/C/Users/Paloma/projects/gchrome-video-post/gcvp.sublime-project",
+		"/C/Users/Paloma/AppData/Local/Temp/Rar$DR04.209/broken-links/content.js",
+		"/C/Users/Paloma/AppData/Local/Temp/Rar$DR04.209/broken-links/background.html",
+		"/C/Users/Paloma/AppData/Local/Temp/Rar$DR04.209/broken-links/devtools.html",
+		"/C/Users/Paloma/AppData/Local/Temp/Rar$DR04.209/broken-links/manifest.json",
+		"/C/Users/Paloma/AppData/Local/Temp/Rar$DR02.612/broken-links/manifest.json",
+		"/C/Users/Paloma/AppData/Local/Temp/Rar$DR00.756/broken-links/content.js",
+		"/C/Users/Paloma/AppData/Local/Temp/Rar$DR02.334/broken-links/background.html",
+		"/C/Users/Paloma/projects/gchrome-video-post/public/js/lib/main.js",
+		"/C/Users/Paloma/projects/gchrome-video-post/ender.js",
+		"/C/Users/Paloma/projects/gchrome-video-post/manifest.json",
+		"/C/Users/Paloma/projects/gchrome-video-post/views/popup.jade",
+		"/C/Users/Paloma/projects/gchrome-video-post/views/popup.html",
+		"/C/cygwin/home/Paloma/projects/streamer/make.sh",
+		"/C/cygwin/home/Paloma/projects/textoWebEditor/make.sh",
+		"/C/cygwin/home/Paloma/projects/webos/make.sh",
+		"/C/cygwin/home/Paloma/projects/textoWebEditor/build.sh",
+		"/C/Users/Paloma/projects/gchrome-video-post/LICENCE",
+		"/C/Users/Paloma/projects/gchrome-video-post/app.js",
+		"/C/Users/Paloma/projects/gchrome-video-post/package.json",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/lib/main.coffee",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/make",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/src/main.js",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/src/main.min.js",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/src/main.coffee",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/lib/main.js",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/lib/options.min.js",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/lib/options.js",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/views/layout.jade",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/build.sh",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/make.sh",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/views/index.jade",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/main.coffee",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/public/javascripts/main.js",
+		"/C/Users/Paloma/extentions/ext-cogetube-chrome/app.js",
+		"/C/Users/Paloma/projects/perfil.styl",
+		"/C/Users/Paloma/projects/perfil.css",
+		"/C/cygwin/home/Paloma/projects/textoWebEditor/build.bat",
+		"/C/cygwin/home/Paloma/projects/textoWebEditor/public/javascripts/lib/c.coffee",
+		"/C/Users/Paloma/AppData/Roaming/Sublime Text 2/Packages/User/Build for nodejs.sublime-build",
+		"/C/Users/Paloma/AppData/Roaming/Sublime Text 2/Packages/User/Node compile.sublime-settings",
+		"/C/cygwin/home/Paloma/projects/textoWebEditor/project.sublime-project",
+		"/C/Users/Paloma/AppData/Roaming/Sublime Text 2/Packages/User/Build-project-windows.sublime-build",
+		"/C/Users/Paloma/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Paloma/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Paloma/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/OsKar/AppData/Roaming/Sublime Text 2/Packages/User/Cygwin-build.sublime-build",
+		"/C/Users/OsKar/AppData/Roaming/Sublime Text 2/Packages/User/Distraction Free.sublime-settings"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"include_history":
+		[
+		],
+		"location_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$",
+			"javasc",
+			".sh",
+			"build"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/cygwin/home/Paloma/projects/textoWebEditor/project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true
+}

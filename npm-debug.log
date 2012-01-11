@@ -1,0 +1,65 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/usr/local/bin/npm',
+verbose cli   'install',
+verbose cli   'ender',
+verbose cli   '-g' ]
+info using npm@1.0.99
+info using node@v0.4.3
+verbose config file /cygdrive/c/Users/Paloma/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose into /usr/local/lib [ 'ender' ]
+verbose cache add ender
+verbose cache add [ 'ender', null ]
+silly cache add: name, spec, args [ undefined, 'ender', [ 'ender', null ] ]
+verbose parsed url { pathname: 'ender', href: 'ender' }
+info addNamed [ 'ender', '' ]
+verbose addNamed [ null, '' ]
+verbose GET ender
+verbose raw, before any munging ender
+verbose url resolving [ 'http://registry.npmjs.org/', './ender' ]
+verbose url resolved http://registry.npmjs.org/ender
+verbose bad json Internal routing error
+verbose bad json 
+verbose bad json Sorry, we cannot connect to the intended server.
+verbose bad json 
+verbose bad json We have just been notified of this problem. We will correct it as soon as possible.
+verbose bad json 
+verbose bad json Feel free to contact us if you have any questions: support@iriscouch.com
+verbose bad json 
+ERR! registry error parsing json
+silly get cb [ 500,
+silly get cb   { 'content-type': 'text/plain',
+silly get cb     'content-length': '239' } ]
+ERR! SyntaxError: Unexpected token ILLEGAL
+ERR! Internal routing error
+ERR! 
+ERR! Sorry, we cannot connect to the intended server.
+ERR! 
+ERR! We have just been notified of this problem. We will correct it as soon as possible.
+ERR! 
+ERR! Feel free to contact us if you have any questions: support@iriscouch.com
+ERR!     at Object.parse (native)
+ERR!     at Request.callback (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:148:21)
+ERR!     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:341:18)
+ERR!     at Request.emit (events.js:64:17)
+ERR!     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:309:16)
+ERR!     at IncomingMessage.emit (events.js:81:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:132:23)
+ERR!     at Socket.ondata (http.js:1206:22)
+ERR!     at Socket._onReadable (net.js:675:27)
+ERR!     at IOWatcher.onReadable [as callback] (net.js:177:10)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System CYGWIN_NT-6.1 1.7.9(0.237/5/3)
+ERR! command "node" "/usr/local/bin/npm" "install" "ender" "-g"
+ERR! cwd /cygdrive/c/Users/Paloma/projects/gchrome-video-post
+ERR! node -v v0.4.3
+ERR! npm -v 1.0.99
+ERR! type unexpected_token
+ERR! arguments [ 'ILLEGAL' ]
+verbose exit [ 1, true ]

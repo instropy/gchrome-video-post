@@ -1,0 +1,17 @@
+!!!
+html
+  head
+    title= "Cgt"
+    link(rel='stylesheet', href='../public/css/style.css')
+    script(src='../public/js/lib/options.min.js')
+ body.options(id="buddy")
+  div.message_box
+  div.header-bar
+    img.logo( src="https://cogetube.s3.amazonaws.com/static/logo.png" )
+  div.page
+   ul.config-list
+    elements = { options: 'Set the allowed sites that this pluggin has access to (each site on one line)' }
+     each val, key in elements
+      li.option( data-ref="#{key}") #{val}
+    textarea#allowed_sites
+  input#saveOptionsBtn(type="button", value="Save options")
