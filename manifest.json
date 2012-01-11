@@ -1,7 +1,7 @@
 {
   "name": "gchrome-video-post"
 , "version": "0.0.1"
-, "description": "A simple extention to save current video/embed reference into third party services."
+, "description": "Track videos you watch anywhere on the web and automatically save them privately to your third-party/history service"
 , "private": "false"
 , "options_page":"views/options.html"
 , "background_page":"views/background.html"
